@@ -8,12 +8,12 @@ def assign_variable(value = "Bob")
   "#{value}"
 end
 
-def argue
-  
+def argue (value)
+  puts argue(value)
 end
 
 def greeting
-
+  
 end
 
 def return_a_value
