@@ -13,8 +13,9 @@ def argue (value)
   (value)
 end
 
-def greeting
-  
+def greeting (greeting, name)
+  puts (greeting, name)
+  (greeting, name)
 end
 
 def return_a_value
