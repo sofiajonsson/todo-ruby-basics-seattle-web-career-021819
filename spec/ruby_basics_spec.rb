@@ -10,14 +10,17 @@ describe "ruby" do
       num2 = 7
 
       expect(division(num1,num2)).to eq(6)
+   
     end
   end
 
   describe '#assign_variable' do
     it 'takes an argument of a persons name and assign it to a variable name' do
       value = "Bob"
+  
 
       expect(assign_variable(value)).to eq(value)
+      
     end
   end
 
