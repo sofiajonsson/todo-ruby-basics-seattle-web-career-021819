@@ -5,6 +5,7 @@ end
 
 def assign_variable(value = "Bob")
   puts "#{value}"
+  "#{value}"
   
 end
 
