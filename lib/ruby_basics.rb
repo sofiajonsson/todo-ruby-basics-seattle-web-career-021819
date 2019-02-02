@@ -23,10 +23,13 @@ def return_a_value(value = "Nice")
 
 end
 
-def last_evaluated_value
+def last_evaluated_value(value = "expert")
+  puts "#{value}"
+  "#{value}"
 
 end
 
-def pizza_party
+def pizza_party(argument)
+  puts (argument)
 
 end
