@@ -29,7 +29,8 @@ def last_evaluated_value(value = "expert")
 
 end
 
-def pizza_party(argument)
-  puts (argument)
+def pizza_party(value = "cheese")
+  puts "#{value}"
+  "#{value}"
 
 end
